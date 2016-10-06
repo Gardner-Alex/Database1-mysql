@@ -1,0 +1,244 @@
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+Query OK, 0 rows affected (0.05 sec)
+
++-------------+
+| Drop Table  |
++-------------+
+| SYSTEM_USER |
++-------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
++--------------+
+| Create Table |
++--------------+
+| SYSTEM_USER  |
++--------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.19 sec)
+
+Query OK, 1 row affected (0.08 sec)
+
++---------------+
+| Drop Table    |
++---------------+
+| COMMON_LOOKUP |
++---------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
++---------------+
+| Create Table  |
++---------------+
+| COMMON_LOOKUP |
++---------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.15 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.03 sec)
+
+Query OK, 1 row affected (0.18 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.11 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++------------+
+| Drop Table |
++------------+
+| MEMBER     |
++------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
++--------------+
+| Create Table |
++--------------+
+| MEMBER       |
++--------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.14 sec)
+
++------------+
+| Drop Table |
++------------+
+| CONTACT    |
++------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
++--------------+
+| Create Table |
++--------------+
+| CONTACT      |
++--------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.15 sec)
+
++------------+
+| Drop Table |
++------------+
+| ADDRESS    |
++------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
++--------------+
+| Create Table |
++--------------+
+| ADDRESS      |
++--------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.14 sec)
+
++----------------+
+| Drop Table     |
++----------------+
+| STREET_ADDRESS |
++----------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
++----------------+
+| Create Table   |
++----------------+
+| STREET_ADDRESS |
++----------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
++------------+
+| Drop Table |
++------------+
+| TELEPHONE  |
++------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
++------------+
+| Drop Table |
++------------+
+| TELEPHONE  |
++------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.17 sec)
+
++------------+
+| Drop Table |
++------------+
+| RENTAL     |
++------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
++--------------+
+| Create Table |
++--------------+
+| RENTAL       |
++--------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.16 sec)
+
++------------+
+| Drop Table |
++------------+
+| ITEM       |
++------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
++--------------+
+| Create Table |
++--------------+
+| ITEM         |
++--------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (1.37 sec)
+
++-------------+
+| Drop Table  |
++-------------+
+| RENTAL_ITEM |
++-------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
++--------------+
+| Create Table |
++--------------+
+| RENTAL_ITEM  |
++--------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.29 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++---------------------+
+| Tables_in_studentdb |
++---------------------+
+| address             |
+| common_lookup       |
+| contact             |
+| grandma             |
+| item                |
+| member              |
+| rental              |
+| rental_item         |
+| street_address      |
+| system_user         |
+| telephone           |
+| tweetie_bird        |
++---------------------+
+12 rows in set (0.00 sec)
+

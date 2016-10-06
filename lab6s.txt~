@@ -1,0 +1,234 @@
+Query OK, 0 rows affected (0.08 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-------------+------------------+-------------------+-----------+
+| table_name  | ordinal_position | column_name       | data_type |
++-------------+------------------+-------------------+-----------+
+| rental_item |                1 | rental_item_id    | int       |
+| rental_item |                2 | rental_id         | int       |
+| rental_item |                3 | item_id           | int       |
+| rental_item |                4 | created_by        | int       |
+| rental_item |                5 | creation_date     | date      |
+| rental_item |                6 | last_updated_by   | int       |
+| rental_item |                7 | last_update_date  | date      |
+| rental_item |                8 | rental_item_price | int       |
+| rental_item |                9 | rental_item_type  | int       |
++-------------+------------------+-------------------+-----------+
+9 rows in set (0.00 sec)
+
++------------+
+| Drop Table |
++------------+
+| PRICE      |
++------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+ERROR 1050 (42S01): Table 'price' already exists
++------------+------------------+------------------+-----------+
+| table_name | ordinal_position | column_name      | data_type |
++------------+------------------+------------------+-----------+
+| price      |                1 | price_id         | int       |
+| price      |                2 | item_id          | int       |
+| price      |                3 | price_type       | int       |
+| price      |                4 | active_flag      | char      |
+| price      |                5 | start_date       | date      |
+| price      |                6 | end_date         | date      |
+| price      |                7 | amount           | int       |
+| price      |                8 | created_by       | int       |
+| price      |                9 | creation_date    | date      |
+| price      |               10 | last_updated_by  | int       |
+| price      |               11 | last_update_date | date      |
++------------+------------------+------------------+-----------+
+11 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.15 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++------------+------------------+------------------+-----------+
+| table_name | ordinal_position | column_name      | data_type |
++------------+------------------+------------------+-----------+
+| item       |                1 | item_id          | int       |
+| item       |                2 | item_barcode     | char      |
+| item       |                3 | item_type        | int       |
+| item       |                4 | item_title       | char      |
+| item       |                5 | item_subtitle    | char      |
+| item       |                6 | item_rating_id   | int       |
+| item       |                7 | release_date     | date      |
+| item       |                8 | created_by       | int       |
+| item       |                9 | creation_date    | date      |
+| item       |               10 | last_updated_by  | int       |
+| item       |               11 | last_update_date | date      |
++------------+------------------+------------------+-----------+
+11 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++----------------------------+------------+--------------+
+| item_title                 | today      | release_date |
++----------------------------+------------+--------------+
+| The Fellowship of the Ring | 2014-06-06 | 2014-05-27   |
+| The Two Towers             | 2014-06-06 | 2014-05-27   |
+| The Return of the King     | 2014-06-06 | 2014-05-27   |
++----------------------------+------------+--------------+
+3 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
++---------------+-------+-------+
+| full_name     | city  | state |
++---------------+-------+-------+
+| Potter, Lily  | Provo | Utah  |
+| Potter, Harry | Provo | Utah  |
+| Potter, Ginny | Provo | Utah  |
++---------------+-------+-------+
+3 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++-----------+----------+
+| last_name | COUNT(*) |
++-----------+----------+
+| Potter    |        3 |
++-----------+----------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++---------------+------------------+-----------------------+-----------+
+| table_name    | ordinal_position | column_name           | data_type |
++---------------+------------------+-----------------------+-----------+
+| common_lookup |                1 | common_lookup_id      | int       |
+| common_lookup |                2 | common_lookup_context | char      |
+| common_lookup |                3 | common_lookup_type    | char      |
+| common_lookup |                4 | common_lookup_meaning | char      |
+| common_lookup |                5 | created_by            | int       |
+| common_lookup |                6 | creation_date         | date      |
+| common_lookup |                7 | last_updated_by       | int       |
+| common_lookup |                8 | last_update_date      | date      |
+| common_lookup |                9 | common_lookup_table   | varchar   |
+| common_lookup |               10 | common_lookup_column  | varchar   |
+| common_lookup |               11 | common_lookup_code    | varchar   |
++---------------+------------------+-----------------------+-----------+
+11 rows in set (0.00 sec)
+
+Query OK, 18 rows affected (0.01 sec)
+Rows matched: 18  Changed: 18  Warnings: 0
+
+Query OK, 18 rows affected (0.01 sec)
+Rows matched: 18  Changed: 18  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.04 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 15 rows affected (0.00 sec)
+Rows matched: 15  Changed: 15  Warnings: 0
+
+Query OK, 20 rows affected (0.13 sec)
+Records: 20  Duplicates: 0  Warnings: 0
+
+Query OK, 20 rows affected (0.09 sec)
+Records: 20  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.06 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++---------------+------------------+-----------------------+-----------+
+| table_name    | ordinal_position | column_name           | data_type |
++---------------+------------------+-----------------------+-----------+
+| common_lookup |                1 | common_lookup_id      | int       |
+| common_lookup |                2 | common_lookup_type    | char      |
+| common_lookup |                3 | common_lookup_meaning | char      |
+| common_lookup |                4 | created_by            | int       |
+| common_lookup |                5 | creation_date         | date      |
+| common_lookup |                6 | last_updated_by       | int       |
+| common_lookup |                7 | last_update_date      | date      |
+| common_lookup |                8 | common_lookup_table   | varchar   |
+| common_lookup |                9 | common_lookup_column  | varchar   |
+| common_lookup |               10 | common_lookup_code    | varchar   |
++---------------+------------------+-----------------------+-----------+
+10 rows in set (0.00 sec)
+
++---------------------+----------------------+--------------------+
+| common_lookup_table | common_lookup_column | common_lookup_type |
++---------------------+----------------------+--------------------+
+| ADDRESS             | ADDRESS_TYPE         | HOME               |
+| ADDRESS             | ADDRESS_TYPE         | WORK               |
+| CONTACT             | CONTACT_TYPE         | CUSTOMER           |
+| CONTACT             | CONTACT_TYPE         | EMPLOYEE           |
+| ITEM                | ITEM_TYPE            | DVD_FULL_SCREEN    |
+| ITEM                | ITEM_TYPE            | DVD_WIDE_SCREEN    |
+| ITEM                | ITEM_TYPE            | NINTENDO_GAMECUBE  |
+| ITEM                | ITEM_TYPE            | PLAYSTATION2       |
+| ITEM                | ITEM_TYPE            | VHS_DOUBLE_TAPE    |
+| ITEM                | ITEM_TYPE            | VHS_SINGLE_TAPE    |
+| ITEM                | ITEM_TYPE            | XBOX               |
+| MEMBER              | CREDIT_CARD_TYPE     | DISCOVER_CARD      |
+| MEMBER              | CREDIT_CARD_TYPE     | MASTER_CARD        |
+| MEMBER              | CREDIT_CARD_TYPE     | VISA_CARD          |
+| MEMBER              | MEMBER_TYPE          | GROUP              |
+| MEMBER              | MEMBER_TYPE          | INDIVIDUAL         |
+| SYSTEM_USER         | SYSTEM_USER_TYPE     | DBA                |
+| SYSTEM_USER         | SYSTEM_USER_TYPE     | SYSTEM_ADMIN       |
+| TELEPHONE           | TELEPHONE_TYPE       | HOME               |
+| TELEPHONE           | TELEPHONE_TYPE       | WORK               |
++---------------------+----------------------+--------------------+
+20 rows in set (0.00 sec)
+
++---------------------+----------------------+--------------------+-----------------+--------------+
+| common_lookup_table | common_lookup_column | common_lookup_type | count_dependent | count_lookup |
++---------------------+----------------------+--------------------+-----------------+--------------+
+| ADDRESS             | ADDRESS_TYPE         | HOME               |              15 |           15 |
+| ADDRESS             | ADDRESS_TYPE         | WORK               |               0 |            1 |
+| TELEPHONE           | TELEPHONE_TYPE       | HOME               |              15 |           15 |
+| TELEPHONE           | TELEPHONE_TYPE       | WORK               |               0 |            1 |
++---------------------+----------------------+--------------------+-----------------+--------------+
+4 rows in set (0.00 sec)
+

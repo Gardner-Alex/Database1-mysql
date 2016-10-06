@@ -1,0 +1,54 @@
+Query OK, 315 rows affected (0.01 sec)
+Records: 315  Duplicates: 0  Warnings: 0
+
++-------+-------+-------+-------+-------+
+| Type  | 1-Day | 3-Day | 5-Day | TOTAL |
++-------+-------+-------+-------+-------+
+| OLD Y |    51 |    51 |    51 |   153 |
+| OLD N |    51 |    51 |    51 |   153 |
+| NEW Y |     3 |     3 |     3 |     9 |
+| NEW N |     0 |     0 |     0 |     0 |
++-------+-------+-------+-------+-------+
+4 rows in set (0.01 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++------------+------------------+-------------+-------------+------------------+
+| table_name | ordinal_position | column_name | constraints | column_type      |
++------------+------------------+-------------+-------------+------------------+
+| price      |                3 | price_type  | NOT NULL    | int(10) unsigned |
++------------+------------------+-------------+-------------+------------------+
+1 row in set (0.00 sec)
+
+Query OK, 12 rows affected (0.00 sec)
+Rows matched: 12  Changed: 12  Warnings: 0
+
++----------------+-------------------+--------+
+| rental_item_id | rental_item_price | amount |
++----------------+-------------------+--------+
+|           1001 |                 5 |      5 |
+|           1002 |                 5 |      5 |
+|           1003 |                 5 |      5 |
+|           1004 |                 5 |      5 |
+|           1005 |                 5 |      5 |
+|           1006 |                 5 |      5 |
+|           1007 |                 5 |      5 |
+|           1008 |                 5 |      5 |
+|           1009 |                 5 |      5 |
+|           1010 |                 3 |      3 |
+|           1011 |                10 |     10 |
+|           1012 |                15 |     15 |
++----------------+-------------------+--------+
+12 rows in set (0.00 sec)
+
+Query OK, 12 rows affected (0.12 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
++-------------+-------------------+-------------+
+| TABLE_NAME  | column_name       | constraints |
++-------------+-------------------+-------------+
+| rental_item | rental_item_price | NOT NULL    |
++-------------+-------------------+-------------+
+1 row in set (0.00 sec)
+

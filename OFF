@@ -1,0 +1,7 @@
+mysql> \. lab6s.sql
+ERROR: 
+Failed to open file '/home/student/Data/cit225/mysql/lib/create_oracle_store.sql', error: 2
+ERROR: 
+Failed to open file '/home/student/Data/cit225/mysql/lib/seed_oracle_store.sql', error: 2
+Database changed
+Database changed

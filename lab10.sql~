@@ -1,0 +1,7 @@
+@/home/student/Data/cit225/oracle/lab8/lab8.sql
+
+spool lab9.log
+
+
+
+spool off
